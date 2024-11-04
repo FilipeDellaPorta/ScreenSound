@@ -2,13 +2,15 @@ Musica musica1 = new Musica();
 musica1.nome = "Roxane";
 musica1.artista = "The Police";
 musica1.duracao = 273;
-musica1.disponivel = true;
+musica1.EscreveDisponivel(true);
+Console.WriteLine(musica1.LeituraDisponivel());
 
 Musica musica2 = new Musica();
 musica2.nome = "Vertigo";
 musica2.artista = "U2";
-musica1.duracao = 367;
-musica1.disponivel = false;
+musica2.duracao = 367;
+musica2.EscreveDisponivel(false);
+Console.WriteLine(musica2.LeituraDisponivel());
 
 musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
