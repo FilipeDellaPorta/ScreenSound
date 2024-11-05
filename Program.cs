@@ -9,3 +9,5 @@ musica2.Nome = "Bohemian Rhapsody";
 
 albumDoQueen.AdicionarMusica(musica1);
 albumDoQueen.AdicionarMusica(musica2);
+
+albumDoQueen.ExibirMusicasDoAlbum();
