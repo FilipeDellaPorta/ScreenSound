@@ -5,12 +5,7 @@ class Musica
     public int Duracao { get; set; }
     public bool Disponivel {  get; set; }
     public string DescricaoResumida 
-    { 
-        get
-        {
-            return $"A música {Nome} pertence à banda {Artista}";
-        }
-    }
+        => $"A música {Nome} pertence à banda {Artista}";
 
 
     public void ExibirFichaTecnica()
