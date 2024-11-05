@@ -4,7 +4,13 @@ class Musica
     public string Artista { get; set; }
     public int Duracao { get; set; }
     public bool Disponivel {  get; set; }
-    public string NomeCompleto { get; set; }
+    public string DescricaoResumida 
+    { 
+        get
+        {
+            return $"A música {Nome} pertence à banda {Artista}";
+        }
+    }
 
 
     public void ExibirFichaTecnica()
